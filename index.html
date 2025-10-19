@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineaplan úvod</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+       <div class="normalnav">
+         <div class="loga">
+             <a href="index.html"><img class="logo" src="obrazky/logo989898989-Mweweodel.png" width="100px"> </a>
+ 
+             <a href="index.html"><img class="logo o" src="obrazky/kokoktttttUntitled-2.png" width="100px"> </a>
+         </div>
+ 
+         <div class="vertical">
+          <div class="nav g hideonmobile">
+              <div class="navkontakt offsetcislo nee e">
+                  <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                  <p5 class="nee">+420 724 193 999</p5>
+              </div>
+  
+              <div class="navkontakt nee r">
+                  <img src="obrazky/mail.png" width="30px">
+                  <p5 class="nee">kocman@lineaplan.cz</p5>
+              </div>            
+          </div>
+  
+          <div class="nav offset">
+           <li class="hideonmobile"><a class="ne e" href="index.html"> ÚVOD </a></li>
+           <li class="hideonmobile"><a class="ne e " href="nasesluzby.html"> NAŠE SLUŽBY </a></li>
+           <li class="hideonmobile"><a class="ne e" href="REALIZACE"> REALIZACE </a></li>
+           <li class="hideonmobile"><a class="ne e" href="kontakty.html"> KONTAKTUJTE NÁS </a></li>
+           <li class="menu-button" onclick=showSidebar()><a class="ne e" > <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+          </div>
+         </div>
+       </div>
+
+
+
+
+       <div class="shortnav">
+         <div class="vertical">
+          <div class="navshort offset">
+           <li onclick="hideSidebar()"> <a class="ne e x"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li> 
+           <li><a class="ne e" href="index.html"> ÚVOD </a></li>
+           <li><a class="ne e " href="nasesluzby.html"> NAŠE SLUŽBY </a></li>
+           <li><a class="ne e" href="REALIZACE"> REALIZACE </a></li>
+           <li><a class="ne e" href="kontakty.html"> KONTAKTUJTE NÁS </a></li>
+          </div>
+
+          <div class="navshort d">
+              <div class="navkontaktshort">
+                  <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                  <p5 class="nee">+420 724 193 999</p5>
+              </div>
+  
+              <div class="navkontaktshort">
+                  <img src="obrazky/mail.png" width="30px">
+                  <p5 class="nee">kocman@lineaplan.cz</p5>
+              </div>            
+          </div>
+
+         </div>
+       </div>
+
+      <script>
+         function showSidebar(){
+            const shortnav = document.querySelector('.shortnav')
+            shortnav.style.display = 'flex'
+         }
+
+         function hideSidebar(){
+            const shortnav = document.querySelector('.shortnav')
+            shortnav.style.display = 'none'
+         }
+      </script>
+
+    </header>
+
+<div class="uvod">
+    <h3 class="nadpis">Jsme projekční kancelář <br class="f">sídlící v Brně.</h3>
+    <h6 class="nadpistext">Nabízíme komplexní projektové a inženýrské služby<br> s důrazem na osobní přístup, kvalitu, spolehlivost a<br> moderní řešení. 
+        Působíme po celé ČR.</h6>
+</div>
+
+<div>
+    <h3 class="nabídkanadpis">Co nabízíme?</h3>
+</div>
+
+<div class="flex">
+ <div class="nabidkaflex">
+
+    <div class="nabidkakarta placeholder">
+        <div class="kartaoffset">
+           <h4 class="textbig">Projekt novostavby</h4>
+           <p2 class="text">Plánujete výstavbu rodinného domu či jiné stavby? Připravíme pro vás kompletní projektovou dokumentaci, včetně vyřízení stavebního povolení a dalších stupňů projektové dokumentace.</p2>
+        </div>
+    </div>
+
+    <div class="nabidkakarta placeholder">
+        <div class="kartaoffset">
+           <h4 class="textbig">Pasport - zaměření nemovitosti</h4>
+           <p2 class="text">Potřebujete dokumentaci stávajícího stavu stavby pro jednání s úřady, prodej či pronájem nemovitosti, rekonstrukci nebo odstranění objektu? Objekt vám osobně zaměříme a dokumentaci vyhotovíme.</p2>
+        </div>
+    </div>
+
+    <div class="demolice">
+        <div class="kartaoffset">
+           <h4 class="textbig">Projekt demolice</h4>
+           <p2 class="text">Plánujete bourací práce? Pro odstranění objektu je nutná projektová dokumentace demolice, kterou vyžaduje stavební úřad. Zajistíme vám projekt demolice, včetně zaměření a inženýringu.</p2>
+        </div>
+    </div>
+
+    <div class="nabidkakarta placeholder">
+        <div class="kartaoffset">
+           <h4 class="textbig">Projekt rekonstrukce</h4>
+           <p2 class="text">Plánujete rekonstrukci vaší nemovitosti? Připravíme pro vás projekt rekonstrukce, který zohledňuje stávající stav, technické normy a vaše požadavky.</p2>
+        </div>
+    </div>
+    
+    <div class="nabidkakarta placeholder">
+        <div class="kartaoffset">
+           <h4 class="textbig">Vizualizace, 3D modely</h4>
+           <p2 class="text">Nejste si jisti, jak bude váš záměr ve skutečnosti vypadat? Vyhotovíme vám realistické vizualizace a modely, které vám usnadní rozhodování a ukážou různé možnosti a kombinace a varianty pro váš záměr.</p2>
+        </div>
+    </div>    
+ </div>
+</div>
+
+
+
+<footer class="footer">
+    <div class="inerflex">
+        <div class="inerinerflex">
+          <div class="logaflex padding">
+              <div class="verticallogo">
+                  <a href="index.html"><img class="logofooter" src="obrazky/logo989898989-Mweweodel.png" width="100px"> </a>
+                  <a href="index.html"><img class="logo logosize" src="obrazky/kokoktttttUntitled-2.png" width="100px"> </a>
+              </div>
+              <h3 class="podpis">© 2024 Lineaplan | Tvorba webových stránek: Jurycraft</h3>
+          </div>
+      
+          <div class="flexmenu padding">
+                <h1 class="footertitle">MENU</h1>
+                <hr>
+                <div class="kokot">
+                  </li  ><a class="nee w h" href="index.html"> Úvod </a></li>
+                  </li  ><a class="nee  w h" href="nasesluzby.html"> Naše služby </a></li>
+                  </li  ><a class="nee w h" href="REALIZACE"> Realizace </a></li>
+                  </li  ><a class="nee w h" href="kontakty.html"> Kontaktujte nás </a></li>
+                </div>
+      
+          </div>
+        </div>
+
+      <div class="inerinerflex">
+          <div class="flexmenu padding">
+                <h1 class="footertitle y">KONTKAT</h1>
+                <hr>
+               <div class="navfooterkontakt">
+                   <div class="navkontaktfooter w  ">
+                       <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                       <p5 class="footerkontakt ">+420 724 193 999</p5>
+                   </div>
+       
+                   <div class="navkontaktfooter w ">
+                       <img src="obrazky/mail.png" width="30px">
+                       <p5 class="footerkontakt ">kocman@lineaplan.cz</p5>
+                   </div>            
+               </div>
+          </div>
+      
+          <div class="padding">
+                <h1 class="footertitle y">BANKOVNÍ SPOJENÍ</h1>
+                <hr>
+                <h2 class="w ">Česká spořitelna a.s.</h2>
+                <h2 class="w ">6704275309/0800</h2>
+          </div>
+      </div>
+
+    </div>
+</footer>
+
+
+</body>
+</html>
