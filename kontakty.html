@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineaplan kontakt</title>
+    <link rel="icon" type="image/x-icon" href="/obrazky/logoicon2.png">
+    <link rel="stylesheet" href="kontakty.css">
+</head>
+<body>
+    <header>
+       <div class="normalnav">
+         <div class="loga">
+             <a href="index.html"><img class="logo" src="obrazky/logo989898989-Mweweodel.png" width="100px"> </a>
+ 
+             <a href="index.html"><img class="logo o" src="obrazky/kokoktttttUntitled-2.png" width="100px"> </a>
+         </div>
+ 
+         <div class="vertical">
+          <div class="nav g hideonmobile">
+              <div class="navkontakt offsetcislo nee e">
+                  <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                  <p5 class="nee">+420 724 193 999</p5>
+              </div>
+  
+              <div class="navkontakt nee r">
+                  <img src="obrazky/mail.png" width="30px">
+                  <p5 class="nee">kocman@lineaplan.cz</p5>
+              </div>            
+          </div>
+  
+          <div class="nav offset">
+           <li class="hideonmobile"><a class="ne e" href="index.html"> ÚVOD </a></li>
+           <li class="hideonmobile"><a class="ne e " href="sluzby.html"> NAŠE SLUŽBY </a></li>
+           <li class="hideonmobile"><a class="ne e" href="REALIZACE"> REALIZACE </a></li>
+           <li class="hideonmobile"><a class="ne e" href="kontakty.html"> KONTAKTUJTE NÁS </a></li>
+           <li class="menu-button" onclick=showSidebar()><a class="ne e" > <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a></li>
+          </div>
+         </div>
+       </div>
+
+
+
+
+       <div class="shortnav">
+         <div class="vertical">
+          <div class="navshort offset">
+           <li onclick="hideSidebar()"> <a class="ne e x"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li> 
+           <li><a class="ne" href="index.html"> ÚVOD </a></li>
+           <li><a class="ne " href="sluzby.html"> NAŠE SLUŽBY </a></li>
+           <li><a class="ne " href="REALIZACE"> REALIZACE </a></li>
+           <li><a class="ne " href="kontakty.html"> KONTAKTUJTE NÁS </a></li>
+          </div>
+
+          <div class="navshort d">
+              <div class="navkontaktshort">
+                  <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                  <p5 class="nee">+420 724 193 999</p5>
+              </div>
+  
+              <div class="navkontaktshort">
+                  <img src="obrazky/mail.png" width="30px">
+                  <p5 class="nee">kocman@lineaplan.cz</p5>
+              </div>            
+          </div>
+
+         </div>
+       </div>
+
+      <script>
+         function showSidebar(){
+            const shortnav = document.querySelector('.shortnav')
+            shortnav.style.display = 'flex'
+         }
+
+         function hideSidebar(){
+            const shortnav = document.querySelector('.shortnav')
+            shortnav.style.display = 'none'
+         }
+      </script>
+
+    </header>
+
+<div class="uvod">
+    <h3 class="nadpis">Kontaktujte nás</h3>
+</div>
+
+<div class="flexx">
+  <div class="flex">
+        <div class="kontaktypismo">
+         <h2 class="kontaktypismoo"> Pojďme společně probrat váš nový projekt</h2>
+         <h4 class="kontaktypismooo">LINEAPLAN Tomáš Kocman</h4>
+         <h4 class="kontaktypismoooo">Sídlo</h4>
+         <h4 class="kontaktypismo">Kubánská 2401/7,</h4>
+         <h4 class="kontaktypismo">616 00, brno</h4>
+      </div>
+      
+      <div class="parrr">
+                 <div class="oballle">
+                   <img class="parr" src="obrazky/telefon2.png" width="30px">
+                   </li  ><a class="nev" >  +420 724 193 999 </a></li>
+                 </div>
+               
+                 <div class="oballle">
+                   <img class="parr" src="obrazky/mail.png" width="30px">
+                   </li  ><a class="nev" >  kocman@lineaplan.cz </a></li>
+                 </div>
+      </div>
+  
+      <div>
+          <h4 class="kontaktypismo">IČO: 23342421</h4>
+          <h4 class="kontaktypismoe">Vydal Ž. ú. města Brna Č. j. MMB/0267251/2025 Sp. zn. ZU/MMB/0267215/2025</h4>
+      </div>
+  
+  </div>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="imput">
+      <h2 class="kontaktypismoo">Kontaktní formulář</h2>
+      <input type="hidden" name="access_key" value="87a98862-6b20-41d2-808d-3b4ae410ad14">
+      <input type="text" name="name" placeholder="Jméno a přímení" class="contact f" required>
+      <input type="email" name="email" placeholder="E-mailová adresa" class="contact f" required>
+      <textarea name="Zpráva" placeholder="Vaše zpráva" class="contacttt f" required></textarea>
+      <div class="odeslatt"> <button type="submit" class="odeslat f">Odeslat  </button></div> 
+    </div>
+  </form>
+  
+</div>
+
+
+
+
+<footer class="footer">
+    <div class="inerflex">
+        <div class="inerinerflex">
+          <div class="logaflex padding">
+              <div class="verticallogo">
+                  <a href="index.html"><img class="logofooter" src="obrazky/logo989898989-Mweweodel.png" width="100px"> </a>
+                  <a href="index.html"><img class="logo logosize" src="obrazky/kokoktttttUntitled-2.png" width="100px"> </a>
+              </div>
+              <h3 class="podpis">© 2024 Lineaplan | Tvorba webových stránek: Jurycraft</h3>
+          </div>
+      
+          <div class="flexmenu padding">
+                <h1 class="footertitle">MENU</h1>
+                <hr>
+                <div class="kokot">
+                  </li  ><a class="nee w h" href="index.html"> Úvod </a></li>
+                  </li  ><a class="nee  w h" href="sluzby.html"> Naše služby </a></li>
+                  </li  ><a class="nee w h" href="REALIZACE"> Realizace </a></li>
+                  </li  ><a class="nee w h" href="kontakty.html"> Kontaktujte nás </a></li>
+                </div>
+      
+          </div>
+        </div>
+
+      <div class="inerinerflex">
+          <div class="flexmenu padding">
+                <h1 class="footertitle y">KONTKAT</h1>
+                <hr>
+               <div class="navfooterkontakt">
+                   <div class="navkontaktfooter w  ">
+                       <img class="obrnav" src="obrazky/telefon2.png" width="30px">
+                       <p5 class="footerkontakt ">+420 724 193 999</p5>
+                   </div>
+       
+                   <div class="navkontaktfooter w ">
+                       <img src="obrazky/mail.png" width="30px">
+                       <p5 class="footerkontakt ">kocman@lineaplan.cz</p5>
+                   </div>            
+               </div>
+          </div>
+      
+          <div class="padding">
+                <h1 class="footertitle y">BANKOVNÍ SPOJENÍ</h1>
+                <hr>
+                <h2 class="w ">Česká spořitelna a.s.</h2>
+                <h2 class="w ">6704275309/0800</h2>
+          </div>
+      </div>
+
+    </div>
+</footer>
+</body>
+</html>
